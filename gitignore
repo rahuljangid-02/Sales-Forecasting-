@@ -1,0 +1,38 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Environment / secrets ---
+.env
+*.pem
+*.key
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Editor/IDE ---
+.vscode/
+.idea/
+
+# --- Local scratch / generated artifacts not part of the deliverable ---
+*.pdf
+!summary.pdf
+page-*.jpg
